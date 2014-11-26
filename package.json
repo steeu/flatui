@@ -1,1 +1,1 @@
-﻿{"name":"llvflat","author":"","copyright":"","studio":{"label":"llvflat","mobile":"false"},"version":"1.0.0","loadDependencies":[{"id":"llvflat/llvflat.css","path":"THEMES_CUSTOM"}],"type":"custom"}
+﻿{"name":"flatui","author":"","copyright":"","studio":{"label":"flatui","mobile":"false"},"version":"1.0.0","loadDependencies":[{"id":"flatui/flatui.css","path":"THEMES_CUSTOM"}],"type":"custom"}

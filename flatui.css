@@ -19,25 +19,25 @@
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat {
+.waf-theme.flatui {
     background-color: rgb(227, 227, 227);
     
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
     font-size: 12px;
 }
-.waf-theme.llvflat, 
-.waf-theme.llvflat a {
+.waf-theme.flatui, 
+.waf-theme.flatui a {
     color: rgb(51, 51, 51);
 }
 
-.waf-theme.llvflat ul, 
-.waf-theme.llvflat li {
+.waf-theme.flatui ul, 
+.waf-theme.flatui li {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#studio-tmp-bodyContainer.waf-theme.llvflat {
+#studio-tmp-bodyContainer.waf-theme.flatui {
     background-color: transparent !important;
 }
 
@@ -46,8 +46,8 @@
  * @section Widget Header
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-widget-header,
-.waf-theme.llvflat .waf-container.waf-widget-header {
+.waf-theme.flatui .waf-widget-header,
+.waf-theme.flatui .waf-container.waf-widget-header {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(250, 249, 251)), color-stop(1, rgb(227, 227, 235)));
     background-image: -webkit-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
     background-image:    -moz-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
@@ -63,8 +63,8 @@
  * @section Widget Body
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-widget-body,
-.waf-theme.llvflat .waf-container.waf-widget-body {
+.waf-theme.flatui .waf-widget-body,
+.waf-theme.flatui .waf-container.waf-widget-body {
     background-color: rgb(255, 255, 255);
 }
 
@@ -73,8 +73,8 @@
  * @section Widget Footer
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-widget-footer,
-.waf-theme.llvflat .waf-container.waf-widget-footer {
+.waf-theme.flatui .waf-widget-footer,
+.waf-theme.flatui .waf-container.waf-widget-footer {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(254, 254, 254)), color-stop(1, rgb(230, 230, 230)));
     background-image: -webkit-linear-gradient(top, rgb(254, 254, 254) 0%, rgb(230, 230, 230) 100%);
     background-image:    -moz-linear-gradient(top, rgb(254, 254, 254) 0%, rgb(230, 230, 230) 100%);
@@ -90,7 +90,7 @@
  * @section even / odd
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-widget-odd {
+.waf-theme.flatui .waf-widget-odd {
     background-color: rgb(247, 247, 247);
 }
 
@@ -123,19 +123,19 @@
  * @subsection Border width
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-accordion .accordion-section {
+.waf-theme.flatui .waf-accordion .accordion-section {
     border-width: 1px 1px 0 1px;
 }
-.waf-theme.llvflat .waf-accordion .accordion-section:last-of-type {
+.waf-theme.flatui .waf-accordion .accordion-section:last-of-type {
     border-bottom-width: 1px;
 }
 
 /* GUI Designer */
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay > div > .accordion-section,
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay > div > .accordion-section:last-of-type {
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay > div > .accordion-section,
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay > div > .accordion-section:last-of-type {
     border-width: 1px 1px 0 1px;
 }
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type > div > .accordion-section {
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type > div > .accordion-section {
     border-bottom-width: 1px;    
 }
 /* // GUI Designer */
@@ -145,37 +145,37 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @subsection Border radius
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-accordion .accordion-section,
-.waf-theme.llvflat .waf-accordion .accordion-section .waf-accordion-header,
-.waf-theme.llvflat .waf-accordion .accordion-section .waf-accordion-content {
+.waf-theme.flatui .waf-accordion .accordion-section,
+.waf-theme.flatui .waf-accordion .accordion-section .waf-accordion-header,
+.waf-theme.flatui .waf-accordion .accordion-section .waf-accordion-content {
     border-radius: 0;
 }
-.waf-theme.llvflat .waf-accordion .accordion-section:first-of-type,
-.waf-theme.llvflat .waf-accordion .accordion-section:first-of-type .waf-accordion-header {
+.waf-theme.flatui .waf-accordion .accordion-section:first-of-type,
+.waf-theme.flatui .waf-accordion .accordion-section:first-of-type .waf-accordion-header {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
-.waf-theme.llvflat .waf-accordion .accordion-section:last-of-type,
-.waf-theme.llvflat .waf-accordion .accordion-section:last-of-type .waf-accordion-content,
-.waf-theme.llvflat .waf-accordion .accordion-section:last-of-type.waf-state-collapsed .waf-accordion-header {
+.waf-theme.flatui .waf-accordion .accordion-section:last-of-type,
+.waf-theme.flatui .waf-accordion .accordion-section:last-of-type .waf-accordion-content,
+.waf-theme.flatui .waf-accordion .accordion-section:last-of-type.waf-state-collapsed .waf-accordion-header {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
 
 /* GUI Designer */
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay > div > .accordion-section,
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay > div > .accordion-section .waf-accordion-header,
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay > div > .accordion-section .waf-accordion-content {
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay > div > .accordion-section,
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay > div > .accordion-section .waf-accordion-header,
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay > div > .accordion-section .waf-accordion-content {
     border-radius: 0;
 }
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:first-of-type > div > .accordion-section,
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:first-of-type > div > .accordion-section .waf-accordion-header {
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:first-of-type > div > .accordion-section,
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:first-of-type > div > .accordion-section .waf-accordion-header {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type > div > .accordion-section,
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type > div > .accordion-section .waf-accordion-content,
-body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type > div > .accordion-section.waf-state-collapsed .waf-accordion-header {
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type > div > .accordion-section,
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type > div > .accordion-section .waf-accordion-content,
+body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type > div > .accordion-section.waf-state-collapsed .waf-accordion-header {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
@@ -186,7 +186,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @subsection Section, Header, Content
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-accordion .waf-accordion-header {
+.waf-theme.flatui .waf-accordion .waf-accordion-header {
     border-width: 0 0 1px 0;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(250, 249, 251)), color-stop(1, rgb(227, 227, 235)));
@@ -198,7 +198,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     
     font-size: 14px;
 }
-.waf-theme.llvflat .waf-accordion .accordion-section .waf-accordion-content {
+.waf-theme.flatui .waf-accordion .accordion-section .waf-accordion-content {
     border-width: 0;
 }
 
@@ -207,7 +207,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Other Widgets
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-accordion .waf-accordion-header .waf-richText {
+.waf-theme.flatui .waf-accordion .waf-accordion-header .waf-richText {
     color: rgb(102, 102, 102);
 }
 
@@ -216,7 +216,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @subsection Icon
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-accordion .waf-accordion-icon {
+.waf-theme.flatui .waf-accordion .waf-accordion-icon {
     top:    0;
     right:  0;
     bottom: 0;
@@ -228,7 +228,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
-.waf-theme.llvflat .waf-accordion .waf-accordion-icon:before {
+.waf-theme.flatui .waf-accordion .waf-accordion-icon:before {
     content: '';
     display: block;
     width:  0;
@@ -243,10 +243,10 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 }
 
 /* States */
-.waf-theme.llvflat .waf-accordion .waf-state-collapsed .waf-accordion-icon {
+.waf-theme.flatui .waf-accordion .waf-state-collapsed .waf-accordion-icon {
     background-image: url("/walib/WAF/widget/accordion/skin/softGray/collapsed.png");
 }
-.waf-theme.llvflat .waf-accordion .waf-state-expanded .waf-accordion-icon {
+.waf-theme.flatui .waf-accordion .waf-state-expanded .waf-accordion-icon {
     background-image: url("/walib/WAF/widget/accordion/skin/softGray/expanded.png");
 }
 
@@ -263,7 +263,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-button {
+.waf-theme.flatui .waf-button {
     border: 0;
     border-radius: 3px;
     background-color: rgb(51, 53, 56);
@@ -274,16 +274,16 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 }
 
 /* States */
-.waf-theme.llvflat .waf-button.waf-state-hover {
+.waf-theme.flatui .waf-button.waf-state-hover {
     background-color: rgb(71, 73, 76);
 }
-.waf-theme.llvflat .waf-button.waf-state-active {
+.waf-theme.flatui .waf-button.waf-state-active {
     background-color: rgb(51, 53, 56);
 }
-.waf-theme.llvflat .waf-button.waf-state-focus {
+.waf-theme.flatui .waf-button.waf-state-focus {
     border-color: rgb(131, 131, 132);
 }
-.waf-theme.llvflat .waf-button.waf-state-disabled {
+.waf-theme.flatui .waf-button.waf-state-disabled {
     opacity: 0.5;
 }
 
@@ -293,12 +293,12 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * -----------------------------------
  */
 /* Error */
-.waf-theme.llvflat .waf-button.waf-role-error {
+.waf-theme.flatui .waf-button.waf-role-error {
     background-color: rgb(227, 45, 61);
     
     color: rgb(255, 255, 255);
 }
-.waf-theme.llvflat .waf-button.waf-role-error.waf-state-hover {
+.waf-theme.flatui .waf-button.waf-role-error.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.1)), color-stop(1, rgba(255, 255, 255, 0.1))),
                       -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(238, 95, 91)), color-stop(1, rgb(189, 54, 47)));
     
@@ -317,7 +317,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:         linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
                               linear-gradient(top, rgb(238, 95, 91) 0%, rgb(189, 54, 47) 100%);
 }
-.waf-theme.llvflat .waf-button.waf-role-error.waf-state-active {
+.waf-theme.flatui .waf-button.waf-role-error.waf-state-active {
     border-color: transparent;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(189, 54, 47)), color-stop(1, rgb(238, 95, 91)));
@@ -327,17 +327,17 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(189, 54, 47) 0%, rgb(238, 95, 91) 100%);
     background-image:         linear-gradient(top, rgb(189, 54, 47) 0%, rgb(238, 95, 91) 100%);
 }
-.waf-theme.llvflat .waf-button.waf-role-error.waf-state-focus {
+.waf-theme.flatui .waf-button.waf-role-error.waf-state-focus {
     box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4) inset;
 }
 
 /* Cancel */
-.waf-theme.llvflat .waf-button.waf-role-cancel {
+.waf-theme.flatui .waf-button.waf-role-cancel {
     background-color: rgb(51, 53, 56);
     
     color: rgb(255, 255, 255);
 }
-.waf-theme.llvflat .waf-button.waf-role-cancel.waf-state-hover {
+.waf-theme.flatui .waf-button.waf-role-cancel.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.1)), color-stop(1, rgba(255, 255, 255, 0.1))),
                       -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(84, 84, 84)), color-stop(1, rgb(35, 35, 35)));
     
@@ -356,7 +356,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:         linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
                               linear-gradient(top, rgb(84, 84, 84) 0%, rgb(35, 35, 35) 100%);
 }
-.waf-theme.llvflat .waf-button.waf-role-cancel.waf-state-active {
+.waf-theme.flatui .waf-button.waf-role-cancel.waf-state-active {
     border-color: transparent;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(35, 35, 35)), color-stop(1, rgb(84, 84, 84)));
@@ -366,17 +366,17 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(35, 35, 35) 0%, rgb(84, 84, 84) 100%);
     background-image:         linear-gradient(top, rgb(35, 35, 35) 0%, rgb(84, 84, 84) 100%);
 }
-.waf-theme.llvflat .waf-button.waf-role-cancel.waf-state-focus {
+.waf-theme.flatui .waf-button.waf-role-cancel.waf-state-focus {
     box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4) inset;
 }
 
 /* Confirm */
-.waf-theme.llvflat .waf-button.waf-role-confirm {
+.waf-theme.flatui .waf-button.waf-role-confirm {
     background-color: rgb(0, 125, 64);
     
     color: rgb(255, 255, 255);
 }
-.waf-theme.llvflat .waf-button.waf-role-confirm.waf-state-hover {
+.waf-theme.flatui .waf-button.waf-role-confirm.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.1)), color-stop(1, rgba(255, 255, 255, 0.1))),
                       -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(97, 194, 97)), color-stop(1, rgb(81, 163, 81)));
     
@@ -395,7 +395,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:         linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
                               linear-gradient(top, rgb(97, 194, 97) 0%, rgb(81, 163, 81) 100%);
 }
-.waf-theme.llvflat .waf-button.waf-role-confirm.waf-state-active {
+.waf-theme.flatui .waf-button.waf-role-confirm.waf-state-active {
     border-color: transparent;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(81, 163, 81)), color-stop(1, rgb(97, 194, 97)));
@@ -405,7 +405,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(81, 163, 81) 0%, rgb(97, 194, 97) 100%);
     background-image:         linear-gradient(top, rgb(81, 163, 81) 0%, rgb(97, 194, 97) 100%);
 }
-.waf-theme.llvflat .waf-button.waf-role-confirm.waf-state-focus {
+.waf-theme.flatui .waf-button.waf-role-confirm.waf-state-focus {
     box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4) inset;
 }
 
@@ -423,7 +423,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-buttonImage {
+.waf-theme.flatui .waf-buttonImage {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
     
@@ -440,7 +440,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 }
 
 /* States */
-.waf-theme.llvflat .waf-buttonImage.waf-state-hover {
+.waf-theme.flatui .waf-buttonImage.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -448,7 +448,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-state-active {
+.waf-theme.flatui .waf-buttonImage.waf-state-active {
     border-color: rgb(131, 131, 132);
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
@@ -458,10 +458,10 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
     background-image:         linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-state-focus {
+.waf-theme.flatui .waf-buttonImage.waf-state-focus {
     border-color: rgb(131, 131, 132);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-state-disabled {
+.waf-theme.flatui .waf-buttonImage.waf-state-disabled {
     opacity: 0.5;
 }
 
@@ -470,7 +470,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @subsection Label
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-buttonImage label {
+.waf-theme.flatui .waf-buttonImage label {
     color: rgb(51, 51, 51);
 }
 
@@ -480,7 +480,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * -----------------------------------
  */
 /* Error */
-.waf-theme.llvflat .waf-buttonImage.waf-role-error {
+.waf-theme.flatui .waf-buttonImage.waf-role-error {
     border-color: transparent;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(238, 95, 91)), color-stop(1, rgb(189, 54, 47)));
@@ -490,7 +490,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(238, 95, 91) 0%, rgb(189, 54, 47) 100%);
     background-image:         linear-gradient(top, rgb(238, 95, 91) 0%, rgb(189, 54, 47) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-error.waf-state-hover {
+.waf-theme.flatui .waf-buttonImage.waf-role-error.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.1)), color-stop(1, rgba(255, 255, 255, 0.1))),
                       -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(238, 95, 91)), color-stop(1, rgb(189, 54, 47)));
     
@@ -509,7 +509,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:         linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
                               linear-gradient(top, rgb(238, 95, 91) 0%, rgb(189, 54, 47) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-error.waf-state-active {
+.waf-theme.flatui .waf-buttonImage.waf-role-error.waf-state-active {
     border-color: transparent;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(189, 54, 47)), color-stop(1, rgb(238, 95, 91)));
@@ -519,15 +519,15 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(189, 54, 47) 0%, rgb(238, 95, 91) 100%);
     background-image:         linear-gradient(top, rgb(189, 54, 47) 0%, rgb(238, 95, 91) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-error.waf-state-focus {
+.waf-theme.flatui .waf-buttonImage.waf-role-error.waf-state-focus {
     box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4) inset;
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-error label {
+.waf-theme.flatui .waf-buttonImage.waf-role-error label {
     color: rgb(255, 255, 255);
 }
 
 /* Cancel */
-.waf-theme.llvflat .waf-buttonImage.waf-role-cancel {
+.waf-theme.flatui .waf-buttonImage.waf-role-cancel {
     border-color: transparent;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(84, 84, 84)), color-stop(1, rgb(35, 35, 35)));
@@ -537,7 +537,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(84, 84, 84) 0%, rgb(35, 35, 35) 100%);
     background-image:         linear-gradient(top, rgb(84, 84, 84) 0%, rgb(35, 35, 35) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-cancel.waf-state-hover {
+.waf-theme.flatui .waf-buttonImage.waf-role-cancel.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.1)), color-stop(1, rgba(255, 255, 255, 0.1))),
                       -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(84, 84, 84)), color-stop(1, rgb(35, 35, 35)));
     
@@ -556,7 +556,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:         linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
                               linear-gradient(top, rgb(84, 84, 84) 0%, rgb(35, 35, 35) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-cancel.waf-state-active {
+.waf-theme.flatui .waf-buttonImage.waf-role-cancel.waf-state-active {
     border-color: transparent;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(35, 35, 35)), color-stop(1, rgb(84, 84, 84)));
@@ -566,15 +566,15 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(35, 35, 35) 0%, rgb(84, 84, 84) 100%);
     background-image:         linear-gradient(top, rgb(35, 35, 35) 0%, rgb(84, 84, 84) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-cancel.waf-state-focus {
+.waf-theme.flatui .waf-buttonImage.waf-role-cancel.waf-state-focus {
     box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4) inset;
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-cancel label {
+.waf-theme.flatui .waf-buttonImage.waf-role-cancel label {
     color: rgb(255, 255, 255);
 }
 
 /* Confirm */
-.waf-theme.llvflat .waf-buttonImage.waf-role-confirm {
+.waf-theme.flatui .waf-buttonImage.waf-role-confirm {
     border-color: transparent;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(97, 194, 97)), color-stop(1, rgb(81, 163, 81)));
@@ -584,7 +584,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(97, 194, 97) 0%, rgb(81, 163, 81) 100%);
     background-image:         linear-gradient(top, rgb(97, 194, 97) 0%, rgb(81, 163, 81) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-confirm.waf-state-hover {
+.waf-theme.flatui .waf-buttonImage.waf-role-confirm.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.1)), color-stop(1, rgba(255, 255, 255, 0.1))),
                       -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(97, 194, 97)), color-stop(1, rgb(81, 163, 81)));
     
@@ -603,7 +603,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:         linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
                               linear-gradient(top, rgb(97, 194, 97) 0%, rgb(81, 163, 81) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-confirm.waf-state-active {
+.waf-theme.flatui .waf-buttonImage.waf-role-confirm.waf-state-active {
     border-color: transparent;
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(81, 163, 81)), color-stop(1, rgb(97, 194, 97)));
@@ -613,10 +613,10 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(81, 163, 81) 0%, rgb(97, 194, 97) 100%);
     background-image:         linear-gradient(top, rgb(81, 163, 81) 0%, rgb(97, 194, 97) 100%);
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-confirm.waf-state-focus {
+.waf-theme.flatui .waf-buttonImage.waf-role-confirm.waf-state-focus {
     box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.4) inset;
 }
-.waf-theme.llvflat .waf-buttonImage.waf-role-confirm label {
+.waf-theme.flatui .waf-buttonImage.waf-role-confirm label {
     color: rgb(255, 255, 255);
 }
 
@@ -634,7 +634,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-canvas {
+.waf-theme.flatui .waf-canvas {
 	border: 1px solid rgb(204, 204, 204);
     background-color: rgb(255, 255, 255);
 }
@@ -655,7 +655,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  */
 /* States */
 /* @TODO - Delete these properties after clean structural file */
-.waf-theme.llvflat .waf-checkbox.waf-state-focus {
+.waf-theme.flatui .waf-checkbox.waf-state-focus {
     border: none;
     box-shadow: none;
 }
@@ -665,7 +665,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Checkbox Container
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-checkbox .waf-checkbox-box {
+.waf-theme.flatui .waf-checkbox .waf-checkbox-box {
  	position: absolute;
  	width: 87.5%;
 	height: 87.5%;
@@ -684,11 +684,11 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 }
 
 /* States */
-.waf-theme.llvflat .waf-checkbox.waf-state-focus .waf-checkbox-box,
-.waf-theme.llvflat .waf-checkbox.waf-state-active .waf-checkbox-box {
+.waf-theme.flatui .waf-checkbox.waf-state-focus .waf-checkbox-box,
+.waf-theme.flatui .waf-checkbox.waf-state-active .waf-checkbox-box {
     border-color: rgb(131, 131, 132);    
 }
-.waf-theme.llvflat .waf-checkbox.waf-state-hover .waf-checkbox-box {
+.waf-theme.flatui .waf-checkbox.waf-state-hover .waf-checkbox-box {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -697,7 +697,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
 }
 
-.waf-theme.llvflat .waf-checkbox.waf-state-disabled .waf-checkbox-box {
+.waf-theme.flatui .waf-checkbox.waf-state-disabled .waf-checkbox-box {
     opacity: 0.5;
 }
 
@@ -706,7 +706,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Checkbox Icon
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-checkbox .waf-checkbox-icon {
+.waf-theme.flatui .waf-checkbox .waf-checkbox-icon {
 	position: absolute;
  	width: 80%;
 	height: 80%;
@@ -714,19 +714,19 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  	top: 16%;
 }
 
-.waf-theme.llvflat .waf-checkbox .waf-checkbox-icon.waf-icon-svg {
+.waf-theme.flatui .waf-checkbox .waf-checkbox-icon.waf-icon-svg {
  	display: none;
 }
 /* States */
-.waf-theme.llvflat .waf-checkbox.waf-state-active .waf-checkbox-icon.waf-icon-svg,
-.waf-theme.llvflat .waf-checkbox.waf-state-selected .waf-checkbox-icon.waf-icon-svg {
+.waf-theme.flatui .waf-checkbox.waf-state-active .waf-checkbox-icon.waf-icon-svg,
+.waf-theme.flatui .waf-checkbox.waf-state-selected .waf-checkbox-icon.waf-icon-svg {
  	display: block;
 }
 
-.waf-theme.llvflat .waf-checkbox .waf-checkbox-icon-symbol {
+.waf-theme.flatui .waf-checkbox .waf-checkbox-icon-symbol {
     fill: rgb(102, 102, 102);    
 }
-.waf-theme.llvflat .waf-checkbox .waf-checkbox-icon-symbol-shadow {
+.waf-theme.flatui .waf-checkbox .waf-checkbox-icon-symbol-shadow {
     display: none;
 }
 
@@ -744,7 +744,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-combobox {
+.waf-theme.flatui .waf-combobox {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
     
@@ -757,7 +757,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 }
 
 /* States */
-.waf-theme.llvflat .waf-combobox.waf-state-hover {
+.waf-theme.flatui .waf-combobox.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -765,10 +765,10 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
 }
-.waf-theme.llvflat .waf-combobox.waf-state-active {
+.waf-theme.flatui .waf-combobox.waf-state-active {
 
 }
-.waf-theme.llvflat .waf-combobox.waf-state-disabled {
+.waf-theme.flatui .waf-combobox.waf-state-disabled {
     opacity: 0.5;
 }
 
@@ -777,7 +777,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Input
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-combobox input {
+.waf-theme.flatui .waf-combobox input {
     padding: 0 4px;
 
     border-width: 0 1px 0 0;
@@ -786,10 +786,10 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 
     color: rgb(102, 102, 102);
 }
-.waf-theme.llvflat .waf-combobox.waf-state-active {
+.waf-theme.flatui .waf-combobox.waf-state-active {
     border-color: rgb(131, 131, 132);
 }
-.waf-theme.llvflat .waf-combobox.waf-state-active input {
+.waf-theme.flatui .waf-combobox.waf-state-active input {
     background: white;
 }
 
@@ -798,7 +798,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Button
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-combobox button {
+.waf-theme.flatui .waf-combobox button {
     border-width: 0 0 0 1px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
@@ -811,7 +811,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:         linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
 }
 /* States */
-.waf-theme.llvflat .waf-combobox.waf-state-hover button {
+.waf-theme.flatui .waf-combobox.waf-state-hover button {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -819,7 +819,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
 }
-.waf-theme.llvflat .waf-combobox.waf-state-active button {
+.waf-theme.flatui .waf-combobox.waf-state-active button {
     border-color: transparent;
 }
 
@@ -843,7 +843,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-container {
+.waf-theme.flatui .waf-container {
 	border: none;
     border-radius: 0;
     
@@ -855,7 +855,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @subsection Roles
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-container.waf-role-bevel {
+.waf-theme.flatui .waf-container.waf-role-bevel {
     box-shadow: 0 -1px 5px -2px rgba(204, 204, 204, 0.8) inset;
 }
 
@@ -873,7 +873,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dataGrid {
+.waf-theme.flatui .waf-dataGrid {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
 	
@@ -885,31 +885,31 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section dataGrid Header
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dataGrid .waf-widget-header {
+.waf-theme.flatui .waf-dataGrid .waf-widget-header {
     border-bottom: 1px solid rgb(204, 204, 204);
     border-radius: 3px 3px 0 0; 
 }
-.waf-theme.llvflat .waf-dataGrid .waf-widget-header > .container {
+.waf-theme.flatui .waf-dataGrid .waf-widget-header > .container {
     border-radius: inherit;
 }
 
-.waf-theme.llvflat .waf-dataGrid .waf-widget-header .waf-dataGrid-cell {
+.waf-theme.flatui .waf-dataGrid .waf-widget-header .waf-dataGrid-cell {
     border-left: 1px solid rgb(255, 255, 255);
     border-right: 1px solid rgb(204, 204, 204);
     box-shadow: none;
 }
-.waf-theme.llvflat .waf-dataGrid .waf-widget-header .waf-dataGrid-cell:first-of-type {
+.waf-theme.flatui .waf-dataGrid .waf-widget-header .waf-dataGrid-cell:first-of-type {
     border-left-color: transparent;
 }
-.waf-theme.llvflat .waf-dataGrid .waf-widget-header .waf-dataGrid-cell:last-of-type {
+.waf-theme.flatui .waf-dataGrid .waf-widget-header .waf-dataGrid-cell:last-of-type {
     border-right-color: transparent;
 }
-.waf-theme.llvflat .waf-dataGrid .waf-widget-header .waf-icon path {
+.waf-theme.flatui .waf-dataGrid .waf-widget-header .waf-icon path {
     fill: rgb(102, 102, 102);
 }
 
 /* States */
-.waf-theme.llvflat .waf-dataGrid .waf-dataGrid-header .waf-dataGrid-cell.waf-state-focus {
+.waf-theme.flatui .waf-dataGrid .waf-dataGrid-header .waf-dataGrid-cell.waf-state-focus {
 	color: rgb(51, 51, 51);
 }
 
@@ -918,11 +918,11 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section dataGrid Footer
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dataGrid .waf-widget-footer {
+.waf-theme.flatui .waf-dataGrid .waf-widget-footer {
     border-top: 1px solid rgb(204, 204, 204);
     border-radius: 0 0 3px 3px; 
 }
-.waf-theme.llvflat .waf-dataGrid .waf-widget-footer .waf-icon path {
+.waf-theme.flatui .waf-dataGrid .waf-widget-footer .waf-icon path {
     fill: rgb(102, 102, 102);
 }
 
@@ -931,7 +931,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section dataGrid Body
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dataGrid .waf-widget-body .waf-datagrid-missingBinding {
+.waf-theme.flatui .waf-dataGrid .waf-widget-body .waf-datagrid-missingBinding {
     color: rgb(189, 54, 47);
 }
 
@@ -941,7 +941,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * -------------------------------------------------------
  */
 /* States */
-.waf-theme.llvflat .waf-dataGrid .waf-widget-body .waf-dataGrid-row.waf-state-hover {
+.waf-theme.flatui .waf-dataGrid .waf-widget-body .waf-dataGrid-row.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -949,7 +949,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
 }
-.waf-theme.llvflat .waf-dataGrid .waf-widget-body .waf-dataGrid-row.waf-state-active {
+.waf-theme.flatui .waf-dataGrid .waf-widget-body .waf-dataGrid-row.waf-state-active {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
     background-image: -webkit-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
     background-image:    -moz-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
@@ -957,7 +957,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:      -o-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
     background-image:         linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
 }
-.waf-theme.llvflat .waf-dataGrid .waf-widget-body .waf-dataGrid-row.waf-state-selected {
+.waf-theme.flatui .waf-dataGrid .waf-widget-body .waf-dataGrid-row.waf-state-selected {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
     background-image: -webkit-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
     background-image:    -moz-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
@@ -971,14 +971,14 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section dataGrid Cell
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dataGrid .waf-dataGrid-cell {
+.waf-theme.flatui .waf-dataGrid .waf-dataGrid-cell {
     border-right: 1px solid rgb(204, 204, 204);
     border-left: 1px solid transparent;
 }
-.waf-theme.llvflat .waf-dataGrid .waf-dataGrid-cell:first-of-type {
+.waf-theme.flatui .waf-dataGrid .waf-dataGrid-cell:first-of-type {
     border-left-color: transparent;
 }
-.waf-theme.llvflat .waf-dataGrid .waf-dataGrid-cell:last-of-type {
+.waf-theme.flatui .waf-dataGrid .waf-dataGrid-cell:last-of-type {
     border-right-color: transparent;
 }
 
@@ -987,10 +987,10 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @subsection dataGrid Cell Editing
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-dataGrid .waf-dataGrid-cell.editing {
+.waf-theme.flatui .waf-dataGrid .waf-dataGrid-cell.editing {
     background-color: rgba(255, 255, 255, 0.3);
 }
-.waf-theme.llvflat .waf-dataGrid .waf-dataGrid-cell.editing .content-edit {
+.waf-theme.flatui .waf-dataGrid .waf-dataGrid-cell.editing .content-edit {
     outline-color: rgb(131, 131, 132);
 }
 
@@ -999,10 +999,10 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section dataGrid status bar
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dataGrid .waf-status .waf-status-element {
+.waf-theme.flatui .waf-dataGrid .waf-status .waf-status-element {
     line-height: 30px;
 }
-.waf-theme.llvflat .waf-dataGrid .waf-status .waf-status-element .waf-toolbar .waf-toolbar-element {
+.waf-theme.flatui .waf-dataGrid .waf-status .waf-status-element .waf-toolbar .waf-toolbar-element {
     top: 4px;
 }
 
@@ -1021,7 +1021,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dialog .waf-container {
+.waf-theme.flatui .waf-dialog .waf-container {
 	box-shadow: none;
 }
 
@@ -1030,23 +1030,23 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section dialog header
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dialog .waf-widget-header {
+.waf-theme.flatui .waf-dialog .waf-widget-header {
     border-width: 0 0 1px 0;
     
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-.waf-theme.llvflat .waf-dialog .waf-widget-header .waf-dialog-header-title {
+.waf-theme.flatui .waf-dialog .waf-widget-header .waf-dialog-header-title {
 	color: inherit;
     font-weight: normal;
 }
-.waf-theme.llvflat .waf-dialog .waf-widget-header .waf-image {
+.waf-theme.flatui .waf-dialog .waf-widget-header .waf-image {
     top: 5px !important;
     left: 5px !important;
     width: 15px !important;
     height: 15px !important;
 }
-.waf-theme.llvflat .waf-dialog .waf-widget-header .waf-button {
+.waf-theme.flatui .waf-dialog .waf-widget-header .waf-button {
     top: 0!important;
     bottom: 0!important;
 
@@ -1056,7 +1056,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     border-width: 0 0 0 1px;
     border-radius: 0;
 }
-.waf-theme.llvflat .waf-dialog .waf-widget-header .waf-button:before {
+.waf-theme.flatui .waf-dialog .waf-widget-header .waf-button:before {
     content: '';
     display: block;
     
@@ -1070,13 +1070,13 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     
     border-left: 1px solid rgb(255, 255, 255);
 }
-.waf-theme.llvflat .waf-dialog .waf-widget-header .waf-dialog-header-minimize {
+.waf-theme.flatui .waf-dialog .waf-widget-header .waf-dialog-header-minimize {
     right: 30px!important;
 }
-.waf-theme.llvflat .waf-dialog .waf-widget-header .waf-dialog-header-maximize {
+.waf-theme.flatui .waf-dialog .waf-widget-header .waf-dialog-header-maximize {
     right: 15px!important;
 }
-.waf-theme.llvflat .waf-dialog .waf-widget-header .waf-dialog-header-close {
+.waf-theme.flatui .waf-dialog .waf-widget-header .waf-dialog-header-close {
     right: 0!important;
 }
 
@@ -1085,7 +1085,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section dialog body
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dialog .waf-widget-body {
+.waf-theme.flatui .waf-dialog .waf-widget-body {
 	border-width: 0;
     border-radius: 0;
 }
@@ -1095,7 +1095,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section dialog footer
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-dialog .waf-widget-footer {
+.waf-theme.flatui .waf-dialog .waf-widget-footer {
     border-width: 1px 0 0 0;
     border-color: rgb(217, 217, 217);
     border-top-right-radius: 0;
@@ -1107,7 +1107,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @subsection dialog footer buttons
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-widget-footer.waf-dialog-footer .waf-button {
+.waf-theme.flatui .waf-widget-footer.waf-dialog-footer .waf-button {
 	font-size: 11px;
 	line-height: 20px;
 }
@@ -1126,7 +1126,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-frame {
+.waf-theme.flatui .waf-frame {
 	border: 1px solid rgb(204, 204, 204);
     background-color: rgb(255, 255, 255);
 }
@@ -1145,11 +1145,11 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-label {
+.waf-theme.flatui .waf-label {
     color: rgb(102, 102, 102);
 }
 /* States */
-.waf-theme.llvflat .waf-label.waf-state-disabled {
+.waf-theme.flatui .waf-label.waf-state-disabled {
 	opacity: 0.5;
 }
 
@@ -1167,7 +1167,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-login {
+.waf-theme.flatui .waf-login {
 	border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
 
@@ -1179,13 +1179,13 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Login Dialog
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .ui-widget {
+.waf-theme.flatui .ui-widget {
     border: 1px solid rgb(204, 204, 204);
     
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
     font-size: 12px;
 }
-.waf-theme.llvflat .ui-widget .waf-widget-header {
+.waf-theme.flatui .ui-widget .waf-widget-header {
     border-width: 0 0 1px 0;
     border-color: rgb(204, 204, 204);
 }
@@ -1204,7 +1204,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-fileUpload {
+.waf-theme.flatui .waf-fileUpload {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 3px; 
 
@@ -1216,7 +1216,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-image:         linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
 }
 /* States */
-.waf-theme.llvflat .waf-fileUpload.waf-state-disabled {
+.waf-theme.flatui .waf-fileUpload.waf-state-disabled {
     opacity: 0.5;
 }
 
@@ -1225,7 +1225,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Paragraph
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-fileUpload p {
+.waf-theme.flatui .waf-fileUpload p {
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
 	font-size: 12px;
     color: rgb(102, 102, 102);
@@ -1236,7 +1236,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Input
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-fileUpload input {
+.waf-theme.flatui .waf-fileUpload input {
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
 	font-size: 12px;
     color: rgb(102, 102, 102);
@@ -1247,18 +1247,18 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * @section Buttons
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-fileUpload .waf-fileUpload-btnCardinal,
-.waf-theme.llvflat .waf-fileUpload .waf-fileUpload-btnDelete,
-.waf-theme.llvflat .waf-fileUpload .waf-fileUpload-btnBrowse,
-.waf-theme.llvflat .waf-fileUpload .waf-fileUpload-btnUpload {
+.waf-theme.flatui .waf-fileUpload .waf-fileUpload-btnCardinal,
+.waf-theme.flatui .waf-fileUpload .waf-fileUpload-btnDelete,
+.waf-theme.flatui .waf-fileUpload .waf-fileUpload-btnBrowse,
+.waf-theme.flatui .waf-fileUpload .waf-fileUpload-btnUpload {
     border-width: 0 0 0 1px;
     border-radius: 0;
     background: none;
 }
-.waf-theme.llvflat .waf-fileUpload .waf-fileUpload-btnCardinal:before,
-.waf-theme.llvflat .waf-fileUpload .waf-fileUpload-btnDelete:before,
-.waf-theme.llvflat .waf-fileUpload .waf-fileUpload-btnBrowse:before,
-.waf-theme.llvflat .waf-fileUpload .waf-fileUpload-btnUpload:before {
+.waf-theme.flatui .waf-fileUpload .waf-fileUpload-btnCardinal:before,
+.waf-theme.flatui .waf-fileUpload .waf-fileUpload-btnDelete:before,
+.waf-theme.flatui .waf-fileUpload .waf-fileUpload-btnBrowse:before,
+.waf-theme.flatui .waf-fileUpload .waf-fileUpload-btnUpload:before {
     content: '';
     display: block;
     width: 1px;
@@ -1272,7 +1272,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     border-left: 1px solid rgb(255, 255, 255);
 }
 
-.waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-btnBrowse {
+.waf-theme.flatui .waf-fileUpload .waf-button.waf-fileUpload-btnBrowse {
     top:    0 !important;
     right:  0 !important;
     bottom: 0 !important;
@@ -1281,7 +1281,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     width: 20px !important;
     height: auto !important;
 }
-.waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-btnUpload {
+.waf-theme.flatui .waf-fileUpload .waf-button.waf-fileUpload-btnUpload {
     top:    0 !important;
     right:  20px !important;
     bottom: 0 !important;
@@ -1296,7 +1296,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     background-repeat: no-repeat;
     background-position:  center center;
 }
-.waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-btnCardinal {
+.waf-theme.flatui .waf-fileUpload .waf-button.waf-fileUpload-btnCardinal {
     top:    0 !important;
     right:  45px !important;
     bottom: 0 !important;
@@ -1305,7 +1305,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
     width: 20px !important;
     height: auto !important;
 }
-.waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-btnDelete {
+.waf-theme.flatui .waf-fileUpload .waf-button.waf-fileUpload-btnDelete {
     top:    0 !important;
     right:  65px !important;
     bottom: 0 !important;
@@ -1316,10 +1316,10 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 }
 
 /* GUI Designer */
-body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-btnBrowse,
-body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-btnUpload,
-body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-btnCardinal,
-body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-btnDelete{
+body.yui-layout .waf-theme.flatui .waf-fileUpload .waf-button.waf-fileUpload-btnBrowse,
+body.yui-layout .waf-theme.flatui .waf-fileUpload .waf-button.waf-fileUpload-btnUpload,
+body.yui-layout .waf-theme.flatui .waf-fileUpload .waf-button.waf-fileUpload-btnCardinal,
+body.yui-layout .waf-theme.flatui .waf-fileUpload .waf-button.waf-fileUpload-btnDelete{
     top:    -3px !important;
     right:  0 !important;
     bottom: -3px !important;
@@ -1335,7 +1335,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section fileList
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList {
     border-color: rgb(167, 167, 168);
    
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
@@ -1345,14 +1345,14 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     background-image:      -o-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
     background-image:         linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);    
 }
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem {
     height: auto;
 }
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem.waf-state-hover {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem.waf-state-hover {
     background: none;
 }
 
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem td {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem td {
     border-width: 1px 0;
     border-style: solid;
     border-color: transparent;
@@ -1361,29 +1361,29 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
 	font-size: 12px;
     color: rgb(250, 250, 250);
 }
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:first-of-type td {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:first-of-type td {
     border-top-width: 0;
 }
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:last-of-type td {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:last-of-type td {
     border-bottom-width: 0;
 }
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem .waf-fileUpload-fileItem-name {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem .waf-fileUpload-fileItem-name {
     padding: 4px 10px;
 }
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:first-of-type .waf-fileUpload-fileItem-name {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:first-of-type .waf-fileUpload-fileItem-name {
     border-top-left-radius: 3px;
 }
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:last-of-type .waf-fileUpload-fileItem-name {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:last-of-type .waf-fileUpload-fileItem-name {
     border-bottom-left-radius: 3px;
 }
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:first-of-type .waf-fileUpload-fileItem-button {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:first-of-type .waf-fileUpload-fileItem-button {
     border-top-right-radius: 3px;
 }
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:last-of-type .waf-fileUpload-fileItem-button {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem:last-of-type .waf-fileUpload-fileItem-button {
     border-bottom-right-radius: 3px;
 }
 
-.waf-theme.llvflat .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem.waf-state-hover td {
+.waf-theme.flatui .waf-container.waf-fileUpload-fileList .waf-fileUpload-fileItem.waf-state-hover td {
     border-color: rgb(176, 176, 176);
     
     color: rgb(51, 51, 51);
@@ -1412,7 +1412,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section Main menuBar
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-menuBar {
+.waf-theme.flatui .waf-menuBar {
 	border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
 }
@@ -1422,7 +1422,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section Main menuItem
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-menuBar .waf-menuItem {
+.waf-theme.flatui .waf-menuBar .waf-menuItem {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(250, 249, 251)), color-stop(1, rgb(227, 227, 235)));
     background-image: -webkit-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
     background-image:    -moz-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
@@ -1433,7 +1433,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     color: rgb(102, 102, 102);
 }
 /* States */
-.waf-theme.llvflat .waf-menuBar .waf-menuItem.waf-state-hover {
+.waf-theme.flatui .waf-menuBar .waf-menuItem.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -1442,7 +1442,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
 }
 
-.waf-theme.llvflat .waf-menuBar .waf-menuItem.waf-state-selected {
+.waf-theme.flatui .waf-menuBar .waf-menuItem.waf-state-selected {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
     background-image: -webkit-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
     background-image:    -moz-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
@@ -1450,7 +1450,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     background-image:      -o-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
     background-image:         linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
 }
-.waf-theme.llvflat .waf-menuBar .waf-menuItem.waf-state-active {
+.waf-theme.flatui .waf-menuBar .waf-menuItem.waf-state-active {
     background-image: none;
     background-color: rgb(86, 86, 86);
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3) inset;
@@ -1463,24 +1463,24 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section MenuBar Horizontal
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem {
     border-right: 1px solid rgb(204, 204, 204);
     border-left: 1px solid rgb(255, 255, 255);
 }
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem.waf-menuItem-first {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem.waf-menuItem-first {
     border-left-width: 0;
     border-radius: 3px 0 0 3px;
 }
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem.waf-menuItem-last {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem.waf-menuItem-last {
     border-right-width: 0;
     border-radius: 0 3px 3px 0;
 }
 
 /* States */
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem.waf-state-selected {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem.waf-state-selected {
     border-left-color: transparent;    
 }
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem.waf-state-active {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-horizontal > .waf-menuItem.waf-state-active {
     border-left-color: transparent;
 }
 
@@ -1489,24 +1489,24 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section MenuBar Vertical
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-vertical > .waf-menuItem {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-vertical > .waf-menuItem {
     border-bottom: 1px solid rgb(204, 204, 204);
     border-top: 1px solid rgb(255, 255, 255);
 }
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-vertical > .waf-menuItem.waf-menuItem-first {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-vertical > .waf-menuItem.waf-menuItem-first {
     border-top: none;
     border-radius: 3px 3px 0 0;
 }
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-vertical > .waf-menuItem.waf-menuItem-last {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-vertical > .waf-menuItem.waf-menuItem-last {
     border-bottom: none;
     border-radius: 0 0 3px 3px;
 }
 
 /* States */
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-vertical > .waf-menuItem.waf-state-selected {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-vertical > .waf-menuItem.waf-state-selected {
     border-top-color: transparent;    
 }
-.waf-theme.llvflat .waf-menuBar.waf-menuBar-vertical > .waf-menuItem.waf-state-active {
+.waf-theme.flatui .waf-menuBar.waf-menuBar-vertical > .waf-menuItem.waf-state-active {
     border-top-color: transparent;
 }
 
@@ -1524,7 +1524,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-progressBar {
+.waf-theme.flatui .waf-progressBar {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
     
@@ -1536,7 +1536,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @subsection range
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-progressBar-range {
+.waf-theme.flatui .waf-progressBar-range {
     border-right: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
 	
@@ -1547,7 +1547,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     background-image:      -o-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
     background-image:         linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
 }
-.waf-theme.llvflat .waf-progressBar-range span {
+.waf-theme.flatui .waf-progressBar-range span {
 	display: inline-block;
 	margin: auto 5px;
 	height: 100%;
@@ -1568,7 +1568,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section radio box
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-radioGroup .waf-radio .waf-radio-box {
+.waf-theme.flatui .waf-radioGroup .waf-radio .waf-radio-box {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 50%;
 
@@ -1581,7 +1581,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
 }
 
 /* States */
-.waf-theme.llvflat .waf-radioGroup .waf-radio.waf-state-hover .waf-radio-box {
+.waf-theme.flatui .waf-radioGroup .waf-radio.waf-state-hover .waf-radio-box {
     border-color: rgb(165, 165, 165);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -1590,10 +1590,10 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);    
 }
-.waf-theme.llvflat .waf-radioGroup .waf-radio.waf-state-focus .waf-radio-box {
+.waf-theme.flatui .waf-radioGroup .waf-radio.waf-state-focus .waf-radio-box {
 	border-color: rgb(131, 131, 132);    
 }
-.waf-theme.llvflat .waf-radioGroup .waf-radio.waf-state-active .waf-radio-box {
+.waf-theme.flatui .waf-radioGroup .waf-radio.waf-state-active .waf-radio-box {
 	border-color: rgb(131, 131, 132);
 
     background: none;
@@ -1605,7 +1605,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     background-image:      -o-radial-gradient(center, ellipse cover,  rgba(115, 115, 115,1) 0%,rgba(115, 115, 115,1) 30%,rgba(115, 115, 115,0) 45%,rgba(115, 115, 115,0) 100%);
     background-image:         radial-gradient(ellipse at center,  rgba(115, 115, 115,1) 0%,rgba(115, 115, 115,1) 30%,rgba(115, 115, 115,0) 45%,rgba(115, 115, 115,0) 100%);
 }
-.waf-theme.llvflat .waf-radioGroup .waf-radio.waf-state-selected .waf-radio-box {
+.waf-theme.flatui .waf-radioGroup .waf-radio.waf-state-selected .waf-radio-box {
     background: none;
     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM1NjU2NTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM1NjU2NTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiM1NjU2NTUiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNTY1NjU1IiBzdG9wLW9wYWNpdHk9IjAiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
     background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(115, 115, 115,1)), color-stop(30%,rgba(115, 115, 115,1)), color-stop(45%,rgba(115, 115, 115,0)), color-stop(100%,rgba(115, 115, 115,0)));
@@ -1615,7 +1615,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     background-image:      -o-radial-gradient(center, ellipse cover,  rgba(115, 115, 115,1) 0%,rgba(115, 115, 115,1) 30%,rgba(115, 115, 115,0) 45%,rgba(115, 115, 115,0) 100%);
     background-image:         radial-gradient(ellipse at center,  rgba(115, 115, 115,1) 0%,rgba(115, 115, 115,1) 30%,rgba(115, 115, 115,0) 45%,rgba(115, 115, 115,0) 100%);
 }
-.waf-theme.llvflat .waf-radioGroup.waf-state-disabled {
+.waf-theme.flatui .waf-radioGroup.waf-state-disabled {
     opacity: 0.5;
 }
 
@@ -1624,7 +1624,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section radio label
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-radioGroup .waf-radio label {
+.waf-theme.flatui .waf-radioGroup .waf-radio label {
     color: rgb(102, 102, 102);
 }
 
@@ -1642,13 +1642,13 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-slider {
+.waf-theme.flatui .waf-slider {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
 }
 
 /* States */
-.waf-theme.llvflat .waf-slider.waf-state-disabled {
+.waf-theme.flatui .waf-slider.waf-state-disabled {
 	opacity: 0.5;
 }
 
@@ -1669,7 +1669,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section ui-slider-range
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-slider .ui-slider-range {
+.waf-theme.flatui .waf-slider .ui-slider-range {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(250, 249, 251)), color-stop(1, rgb(227, 227, 235)));
     background-image: -webkit-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
     background-image:    -moz-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
@@ -1683,7 +1683,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @subsection slider vertical
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-slider.ui-slider-vertical .ui-slider-range {
+.waf-theme.flatui .waf-slider.ui-slider-vertical .ui-slider-range {
     background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgb(250, 249, 251)), color-stop(1, rgb(227, 227, 235)));
     background-image: -webkit-linear-gradient(left, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
     background-image:    -moz-linear-gradient(left, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
@@ -1697,7 +1697,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section ui-slider-handle
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-slider .ui-slider-handle {
+.waf-theme.flatui .waf-slider .ui-slider-handle {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 100px;
     
@@ -1712,7 +1712,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
 }
 
 /* States */
-.waf-theme.llvflat .waf-slider .ui-slider-handle.ui-state-hover {
+.waf-theme.flatui .waf-slider .ui-slider-handle.ui-state-hover {
     border: 1px solid rgb(165, 165, 165);
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(250, 249, 251)), color-stop(1, rgb(217, 217, 225)));
@@ -1724,7 +1724,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     
     box-shadow: none;
 }
-.waf-theme.llvflat .waf-slider .ui-slider-handle.ui-state-active {
+.waf-theme.flatui .waf-slider .ui-slider-handle.ui-state-active {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
     background-image: -webkit-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
     background-image:    -moz-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
@@ -1735,7 +1735,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     box-shadow: none;
 }
 
-.waf-theme.llvflat .waf-slider .ui-slider-handle.ui-state-focus {
+.waf-theme.flatui .waf-slider .ui-slider-handle.ui-state-focus {
     border-color: rgb(131, 131, 132);   
     
     box-shadow: none;
@@ -1746,7 +1746,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @subsection ui-slider-handle horizontal
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-slider.ui-slider-horizontal .ui-slider-handle {
+.waf-theme.flatui .waf-slider.ui-slider-horizontal .ui-slider-handle {
 	top:    -5px;
     bottom: -5px;
     width: 10px;
@@ -1757,7 +1757,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @subsection ui-slider-handle vertical
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-slider.ui-slider-vertical .ui-slider-handle {
+.waf-theme.flatui .waf-slider.ui-slider-vertical .ui-slider-handle {
 	left:   -5px;
     right:  -5px;
     height: 10px;
@@ -1780,7 +1780,7 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section tabView menuBar
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-tabView .waf-tabView-menuBar {
+.waf-theme.flatui .waf-tabView .waf-tabView-menuBar {
     border: none;
 }
 
@@ -1789,13 +1789,13 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section tabView menuBar menuItem
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-tabView .waf-tabView-menuBar .waf-menuItem {
+.waf-theme.flatui .waf-tabView .waf-tabView-menuBar .waf-menuItem {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
 }
 
 /* States */
-.waf-theme.llvflat .waf-tabView .waf-tabView-menuBar .waf-menuItem.waf-state-hover:not(.waf-state-selected) {
+.waf-theme.flatui .waf-tabView .waf-tabView-menuBar .waf-menuItem.waf-state-hover:not(.waf-state-selected) {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -1803,12 +1803,12 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
     background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);    
 }
-.waf-theme.llvflat .waf-tabView .waf-tabView-menuBar .waf-menuItem.waf-state-selected {
+.waf-theme.flatui .waf-tabView .waf-tabView-menuBar .waf-menuItem.waf-state-selected {
     border-color: rgb(204, 204, 204);
     background: rgb(255, 255, 255);
     font-weight: bold;
 }
-.waf-theme.llvflat .waf-tabView .waf-tabView-menuBar .waf-menuItem.waf-state-active {
+.waf-theme.flatui .waf-tabView .waf-tabView-menuBar .waf-menuItem.waf-state-active {
     background-image: none;
     background-color: rgb(86, 86, 86);
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3) inset;
@@ -1820,23 +1820,23 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @subsection tabview menuBar menuItem (position)
  * -----------------------------------
  */
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-top-left .waf-tabView-menuBar .waf-menuItem,
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-top-right .waf-tabView-menuBar .waf-menuItem {
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-top-left .waf-tabView-menuBar .waf-menuItem,
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-top-right .waf-tabView-menuBar .waf-menuItem {
     border-width: 1px 1px 0 1px;
     border-radius: 3px 3px 0 0; 
 }
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-top .waf-tabView-menuBar .waf-menuItem,
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-bottom .waf-tabView-menuBar .waf-menuItem {
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-right-top .waf-tabView-menuBar .waf-menuItem,
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-right-bottom .waf-tabView-menuBar .waf-menuItem {
     border-width: 1px 1px 1px 0;
     border-radius: 0 3px 3px 0; 
 }
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-bottom-left .waf-tabView-menuBar .waf-menuItem,
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-bottom-right .waf-tabView-menuBar .waf-menuItem {
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-bottom-left .waf-tabView-menuBar .waf-menuItem,
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-bottom-right .waf-tabView-menuBar .waf-menuItem {
     border-width: 0 1px 1px 1px;
     border-radius: 0 0 3px 3px; 
 }
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-left-bottom .waf-tabView-menuBar .waf-menuItem,
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-left-top .waf-tabView-menuBar .waf-menuItem {
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-left-bottom .waf-tabView-menuBar .waf-menuItem,
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-left-top .waf-tabView-menuBar .waf-menuItem {
     border-width: 1px 0 1px 1px;
     border-radius: 3px 0 0 3px; 
 }
@@ -1846,38 +1846,38 @@ body.yui-layout .waf-theme.llvflat .waf-fileUpload .waf-button.waf-fileUpload-bt
  * @section container
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-top-left > .waf-container,  
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-left-top > .waf-container,  
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-top-left > .waf-container,  
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-left-top > .waf-container,  
 /* GUI Designer */
-body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-top-left > div > div > .waf-container,
-body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-left-top > div > div > .waf-container
+body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-top-left > div > div > .waf-container,
+body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-left-top > div > div > .waf-container
 /* // GUI Designer */
 {
     border-radius: 0 3px 3px 3px;
 }
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-top-right > .waf-container,  
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-top > .waf-container,  
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-top-right > .waf-container,  
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-right-top > .waf-container,  
 /* GUI Designer */
-body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-top-right > div > div > .waf-container,
-body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-top > div > div > .waf-container
+body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-top-right > div > div > .waf-container,
+body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-right-top > div > div > .waf-container
 /* // GUI Designer */
 {
     border-radius: 3px 0 3px 3px;
 }
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-bottom-left > .waf-container,
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-left-bottom > .waf-container,
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-bottom-left > .waf-container,
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-left-bottom > .waf-container,
 /* GUI Designer */
-body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-bottom-left > div > div > .waf-container,
-body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-left-bottom > div > div > .waf-container
+body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-bottom-left > div > div > .waf-container,
+body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-left-bottom > div > div > .waf-container
 /* // GUI Designer */
 {
     border-radius: 3px 3px 3px 0;
 }
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-bottom-right > .waf-container,  
-.waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-bottom > .waf-container,  
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-bottom-right > .waf-container,  
+.waf-theme.flatui .waf-tabView.waf-tabView-menu-position-right-bottom > .waf-container,  
 /* GUI Designer */
-body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-bottom-right > div > div > .waf-container,
-body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-bottom > div > div > .waf-container
+body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-bottom-right > div > div > .waf-container,
+body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-right-bottom > div > div > .waf-container
 /* // GUI Designer */
 {
     border-radius: 3px 3px 0 3px;
@@ -1896,7 +1896,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
   * @section Main
   * -------------------------------------------------------
   */
-.waf-theme.llvflat .waf-textField {
+.waf-theme.flatui .waf-textField {
     padding: 6px 6px;
     
     border: none;
@@ -1912,14 +1912,14 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
 }
 
 /* States */
-.waf-theme.llvflat .waf-textField.waf-state-hover {
+.waf-theme.flatui .waf-textField.waf-state-hover {
     border-color: rgb(165, 165, 165);
 }
-.waf-theme.llvflat .waf-textField.waf-state-focus,
-.waf-theme.llvflat .waf-matrix-element.waf-state-selected:not(.waf-container) .waf-textField {
+.waf-theme.flatui .waf-textField.waf-state-focus,
+.waf-theme.flatui .waf-matrix-element.waf-state-selected:not(.waf-container) .waf-textField {
     border-color: rgb(131, 131, 132);
 }
-.waf-theme.llvflat .waf-textField.waf-state-disabled {
+.waf-theme.flatui .waf-textField.waf-state-disabled {
 	opacity: 0.5;
 }
 
@@ -1937,7 +1937,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * @section Main
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-video {
+.waf-theme.flatui .waf-video {
     border: 1px solid rgb(204, 204, 204);
     background-color: rgb(255, 255, 255);
 }
@@ -1948,7 +1948,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * Includes autoComplete-specific rules of the 'Soft Gray' theme
  */
 
-.waf-theme.llvflat .ui-autocomplete {
+.waf-theme.flatui .ui-autocomplete {
     padding: 0;
 
     border: 1px solid rgb(167, 167, 168);
@@ -1962,7 +1962,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     background-image:         linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
 }
 
-.waf-theme.llvflat .ui-autocomplete li a {
+.waf-theme.flatui .ui-autocomplete li a {
     padding: 4px 10px;
 
     border-width: 1px 0;
@@ -1976,18 +1976,18 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     
     cursor: pointer;
 }
-.waf-theme.llvflat .ui-autocomplete li:first-of-type a {
+.waf-theme.flatui .ui-autocomplete li:first-of-type a {
     border-top-width: 0;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
-.waf-theme.llvflat .ui-autocomplete li:last-of-type a {
+.waf-theme.flatui .ui-autocomplete li:last-of-type a {
     border-bottom-width: 0;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
 
-.waf-theme.llvflat .ui-autocomplete li a.ui-state-hover {    
+.waf-theme.flatui .ui-autocomplete li a.ui-state-hover {    
     margin: 0;
     border-color: rgb(176, 176, 176);
     
@@ -2000,7 +2000,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     background-image:      -o-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
     background-image:         linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
 }
-.waf-theme.llvflat .ui-autocomplete li:first-of-type a.ui-state-hover {
+.waf-theme.flatui .ui-autocomplete li:first-of-type a.ui-state-hover {
     border-top-color: transparent;
 }
 
@@ -2015,16 +2015,16 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * @section Skin
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .o2k7SkinSilver .mceExternalToolbar, 
-.waf-theme.llvflat .o2k7SkinSilver .mceListBox .mceText, 
-.waf-theme.llvflat .o2k7SkinSilver div.mceMenu, 
-.waf-theme.llvflat .o2k7SkinSilver table.mceLayout, 
-.waf-theme.llvflat .o2k7SkinSilver .mceMenuItemTitle a, 
-.waf-theme.llvflat .o2k7SkinSilver table.mceLayout tr.mceFirst td, 
-.waf-theme.llvflat .o2k7SkinSilver table.mceLayout, 
-.waf-theme.llvflat .o2k7SkinSilver .mceMenuItemTitle a, 
-.waf-theme.llvflat .o2k7SkinSilver table.mceLayout tr.mceLast td, 
-.waf-theme.llvflat .o2k7SkinSilver .mceIframeContainer {
+.waf-theme.flatui .o2k7SkinSilver .mceExternalToolbar, 
+.waf-theme.flatui .o2k7SkinSilver .mceListBox .mceText, 
+.waf-theme.flatui .o2k7SkinSilver div.mceMenu, 
+.waf-theme.flatui .o2k7SkinSilver table.mceLayout, 
+.waf-theme.flatui .o2k7SkinSilver .mceMenuItemTitle a, 
+.waf-theme.flatui .o2k7SkinSilver table.mceLayout tr.mceFirst td, 
+.waf-theme.flatui .o2k7SkinSilver table.mceLayout, 
+.waf-theme.flatui .o2k7SkinSilver .mceMenuItemTitle a, 
+.waf-theme.flatui .o2k7SkinSilver table.mceLayout tr.mceLast td, 
+.waf-theme.flatui .o2k7SkinSilver .mceIframeContainer {
     border-color: rgb(204, 204, 204);
 }
 
@@ -2040,7 +2040,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * @section Buttons
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-ui-button {
+.waf-theme.flatui .waf-ui-button {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
     
@@ -2061,7 +2061,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
 }
 
 /* States */
-.waf-theme.llvflat .waf-ui-button:not(.waf-button):hover {
+.waf-theme.flatui .waf-ui-button:not(.waf-button):hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -2069,7 +2069,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
 }
-.waf-theme.llvflat .waf-ui-button:not(.waf-button):active {
+.waf-theme.flatui .waf-ui-button:not(.waf-button):active {
     border-color: rgb(131, 131, 132);
     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
@@ -2079,7 +2079,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     background-image:      -o-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
     background-image:         linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
 }
-.waf-theme.llvflat .waf-ui-button:not(.waf-button):focus {
+.waf-theme.flatui .waf-ui-button:not(.waf-button):focus {
     box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
@@ -2088,11 +2088,11 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * @section Box
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-ui-box {
+.waf-theme.flatui .waf-ui-box {
     border-style: solid;
     border-width: 0;
 }
-.waf-theme.llvflat .waf-ui-box > .waf-ui-header {
+.waf-theme.flatui .waf-ui-box > .waf-ui-header {
     border-width: 0 0 1px 0;
     border-style: inherit;
     border-color: inherit;
@@ -2100,7 +2100,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
 }
-.waf-theme.llvflat .waf-ui-box > .waf-ui-footer {
+.waf-theme.flatui .waf-ui-box > .waf-ui-footer {
     border-width: 1px 0 0 0;
     border-style: inherit;
     border-color: inherit;
@@ -2108,7 +2108,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
 }
-.waf-theme.llvflat .waf-ui-box {
+.waf-theme.flatui .waf-ui-box {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 3px;
     background-color: rgb(255, 255, 255);
@@ -2119,7 +2119,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * @section Table
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-ui-table {
+.waf-theme.flatui .waf-ui-table {
   width: 100%;
   max-width: 100%;
   border-width: 1px;
@@ -2129,26 +2129,26 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
 
   border-collapse: collapse;
 }
-.waf-theme.llvflat .waf-ui-table thead,
-.waf-theme.llvflat .waf-ui-table tbody,
-.waf-theme.llvflat .waf-ui-table tfoot,
-.waf-theme.llvflat .waf-ui-table tr,
-.waf-theme.llvflat .waf-ui-table th,
-.waf-theme.llvflat .waf-ui-table td {
+.waf-theme.flatui .waf-ui-table thead,
+.waf-theme.flatui .waf-ui-table tbody,
+.waf-theme.flatui .waf-ui-table tfoot,
+.waf-theme.flatui .waf-ui-table tr,
+.waf-theme.flatui .waf-ui-table th,
+.waf-theme.flatui .waf-ui-table td {
   border-width: 0;
   border-style: inherit;
   border-color: inherit;
 }
-.waf-theme.llvflat .waf-ui-table th,
-.waf-theme.llvflat .waf-ui-table td {
+.waf-theme.flatui .waf-ui-table th,
+.waf-theme.flatui .waf-ui-table td {
   padding: 12px;
   border-width: 1px;
 }
-.waf-theme.llvflat .waf-ui-table thead th {
+.waf-theme.flatui .waf-ui-table thead th {
   text-align: center;
 }
-.waf-theme.llvflat .waf-ui-table thead th,
-.waf-theme.llvflat .waf-ui-table thead td {
+.waf-theme.flatui .waf-ui-table thead th,
+.waf-theme.flatui .waf-ui-table thead td {
   color: #666666;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#faf9fb), to(#e3e3eb));
   background-image: -webkit-linear-gradient(top, #faf9fb 0%, #e3e3eb 100%);
@@ -2158,15 +2158,15 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
   font-size: 16px;
   font-weight: normal;
 }
-.waf-theme.llvflat .waf-ui-table tfoot th,
-.waf-theme.llvflat .waf-ui-table tfoot td {
+.waf-theme.flatui .waf-ui-table tfoot th,
+.waf-theme.flatui .waf-ui-table tfoot td {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#faf9fc), to(#e3e3eb));
   background-image: -webkit-linear-gradient(top, #faf9fc 0%, #e3e3eb 100%);
   background-image: -moz-linear-gradient(top, #faf9fc 0%, #e3e3eb 100%);
   background-image: linear-gradient(to bottom, #faf9fc 0%, #e3e3eb 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffaf9fc', endColorstr='#ffe3e3eb', GradientType=0);
 }
-.waf-theme.llvflat .waf-ui-table tbody th {
+.waf-theme.flatui .waf-ui-table tbody th {
   color: #666666;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#faf9fb), to(#e3e3eb));
   background-image: -webkit-linear-gradient(top, #faf9fb 0%, #e3e3eb 100%);
@@ -2176,7 +2176,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
   font-size: 16px;
   font-weight: normal;
 }
-.waf-theme.llvflat .waf-ui-table tbody td {
+.waf-theme.flatui .waf-ui-table tbody td {
   background-color: #ffffff;
 }
 
@@ -2185,7 +2185,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * @section Header, Footer and Content
  * -------------------------------------------------------
  */
-.waf-theme.llvflat .waf-ui-header {
+.waf-theme.flatui .waf-ui-header {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(250, 249, 251)), color-stop(1, rgb(227, 227, 235)));
     background-image: -webkit-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
     background-image:    -moz-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
@@ -2195,7 +2195,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
 
     color: rgb(102, 102, 102);
 }
-.waf-theme.llvflat .waf-ui-footer {
+.waf-theme.flatui .waf-ui-footer {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(254, 254, 254)), color-stop(1, rgb(230, 230, 230)));
     background-image: -webkit-linear-gradient(top, rgb(254, 254, 254) 0%, rgb(230, 230, 230) 100%);
     background-image:    -moz-linear-gradient(top, rgb(254, 254, 254) 0%, rgb(230, 230, 230) 100%);
@@ -2205,7 +2205,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
 
     color: rgb(102, 102, 102);
 }
-.waf-theme.llvflat .waf-ui-body {
+.waf-theme.flatui .waf-ui-body {
     
 }
 
@@ -2220,16 +2220,16 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * tabs Bar
  */
 
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-top"] > ul {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-top"] > ul {
     height: 24px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-bottom"] > ul {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-bottom"] > ul {
     height: 24px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-left"] > ul {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-left"] > ul {
     width: 66px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-right"] > ul {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-right"] > ul {
     width: 66px;
 }
 
@@ -2238,7 +2238,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * tabs
  */
 
-.waf-theme.llvflat .waf-tabview2 > ul li {
+.waf-theme.flatui .waf-tabview2 > ul li {
     border-width: 1px; 
     border-style: solid;
     border-color: rgb(204, 204, 204);
@@ -2252,7 +2252,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     
     color: rgb(102, 102, 102);
 }
-.waf-theme.llvflat .waf-tabview2 > ul li.waf-state-hover {
+.waf-theme.flatui .waf-tabview2 > ul li.waf-state-hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
     background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
@@ -2260,60 +2260,60 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
     background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
 }
-.waf-theme.llvflat .waf-tabview2 > ul li.waf-state-active {
+.waf-theme.flatui .waf-tabview2 > ul li.waf-state-active {
     background-image: none;
     background-color: rgb(86, 86, 86);
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3) inset;
 
     color: rgb(255, 255, 255);
 }
-.waf-theme.llvflat .waf-tabview2 > ul li.waf-state-selected {
+.waf-theme.flatui .waf-tabview2 > ul li.waf-state-selected {
     background-image: none;
     background-color: #fff;
     box-shadow: none;
     font-weight: bold;
 }
 
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-top"] > ul li.waf-state-selected {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-top"] > ul li.waf-state-selected {
     border-bottom-color: transparent;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-bottom"] > ul li.waf-state-selected {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-bottom"] > ul li.waf-state-selected {
     border-top-color: transparent;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-left"] > ul li.waf-state-selected {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-left"] > ul li.waf-state-selected {
     border-right-color: transparent;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-right"] > ul li.waf-state-selected {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-right"] > ul li.waf-state-selected {
     border-left-color: transparent;
 }
 
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-left"] > ul li,
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-right"] > ul li {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-left"] > ul li,
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-right"] > ul li {
     height: 26px;
     padding-left: 5px;
     padding-right: 5px;
     line-height: 24px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-top"] > ul li,
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-bottom"] > ul li {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-top"] > ul li,
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-bottom"] > ul li {
     padding-left: 10px;
     padding-right: 10px;
     line-height: 22px;
 }
 
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-top"] > ul li {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-top"] > ul li {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-bottom"] > ul li {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-bottom"] > ul li {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-left"] > ul li {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-left"] > ul li {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-right"] > ul li {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-right"] > ul li {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
@@ -2323,7 +2323,7 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * close Tab
  */
 
-.waf-theme.llvflat .waf-tabview2 .waf-tabview2-closeTab {
+.waf-theme.flatui .waf-tabview2 .waf-tabview2-closeTab {
     float: left;
     width: 10px;
     height: 22px;
@@ -2332,18 +2332,18 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
     background-position: center;
     opacity: 0.4;
 }
-.waf-theme.llvflat .waf-tabview2 .waf-tabview2-closeTab:hover {
+.waf-theme.flatui .waf-tabview2 .waf-tabview2-closeTab:hover {
     opacity: 1;
 }
 
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-top"] .waf-tabview2-closeTab,
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-bottom"] .waf-tabview2-closeTab {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-top"] .waf-tabview2-closeTab,
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-bottom"] .waf-tabview2-closeTab {
     float: right;
     background-position: right center;
     height: 20px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-left"] .waf-tabview2-closeTab,
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-right"] .waf-tabview2-closeTab {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-left"] .waf-tabview2-closeTab,
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-right"] .waf-tabview2-closeTab {
     background-position: left center;
 }
 
@@ -2352,40 +2352,40 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
  * containers 
  */
 
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-top"] > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-top"] > .waf-tabview2container {
     top: 23px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-bottom"] > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-bottom"] > .waf-tabview2container {
     bottom: 23px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-left"] > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-left"] > .waf-tabview2container {
     left: 65px;
 }
-.waf-theme.llvflat .waf-tabview2[class*="waf-tabview2-right"] > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2[class*="waf-tabview2-right"] > .waf-tabview2container {
     right: 65px;
 }
 
-.waf-theme.llvflat .waf-tabview2.waf-tabview2-topLeft > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2.waf-tabview2-topLeft > .waf-tabview2container {
     border-top-left-radius: 0;
 }
-.waf-theme.llvflat .waf-tabview2.waf-tabview2-topRight > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2.waf-tabview2-topRight > .waf-tabview2container {
     border-top-right-radius: 0;
 }
-.waf-theme.llvflat .waf-tabview2.waf-tabview2-bottomLeft > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2.waf-tabview2-bottomLeft > .waf-tabview2container {
     border-bottom-left-radius: 0;
 }
-.waf-theme.llvflat .waf-tabview2.waf-tabview2-bottomRight > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2.waf-tabview2-bottomRight > .waf-tabview2container {
     border-bottom-right-radius: 0;
 }
-.waf-theme.llvflat .waf-tabview2.waf-tabview2-leftTop > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2.waf-tabview2-leftTop > .waf-tabview2container {
     border-top-left-radius: 0;
 }
-.waf-theme.llvflat .waf-tabview2.waf-tabview2-leftBottom > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2.waf-tabview2-leftBottom > .waf-tabview2container {
     border-bottom-left-radius: 0;
 }
-.waf-theme.llvflat .waf-tabview2.waf-tabview2-rightTop > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2.waf-tabview2-rightTop > .waf-tabview2container {
     border-top-right-radius: 0;
 }
-.waf-theme.llvflat .waf-tabview2.waf-tabview2-rightBottom > .waf-tabview2container {
+.waf-theme.flatui .waf-tabview2.waf-tabview2-rightBottom > .waf-tabview2container {
     border-bottom-right-radius: 0;
 }
