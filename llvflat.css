@@ -264,39 +264,21 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * -------------------------------------------------------
  */
 .waf-theme.llvflat .waf-button {
-    border: 1px solid rgb(204, 204, 204);
+    border: 0;
     border-radius: 3px;
-    
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(250, 249, 251)), color-stop(1, rgb(227, 227, 235)));
-    background-image: -webkit-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
-    background-image:      -o-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
-    background-image:         linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
+    background-color: rgb(51, 53, 56);
     
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
     font-size: 14px;
-    color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
 }
 
 /* States */
 .waf-theme.llvflat .waf-button.waf-state-hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
-    background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
-    background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
-    background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
+    background-color: rgb(71, 73, 76);
 }
 .waf-theme.llvflat .waf-button.waf-state-active {
-    border-color: rgb(131, 131, 132);
-    
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
-    background-image: -webkit-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:      -o-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:         linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
+    background-color: rgb(51, 53, 56);
 }
 .waf-theme.llvflat .waf-button.waf-state-focus {
     border-color: rgb(131, 131, 132);
@@ -312,14 +294,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  */
 /* Error */
 .waf-theme.llvflat .waf-button.waf-role-error {
-    border-color: transparent;
-    
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(238, 95, 91)), color-stop(1, rgb(189, 54, 47)));
-    background-image: -webkit-linear-gradient(top, rgb(238, 95, 91) 0%, rgb(189, 54, 47) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(238, 95, 91) 0%, rgb(189, 54, 47) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(238, 95, 91) 0%, rgb(189, 54, 47) 100%);
-    background-image:      -o-linear-gradient(top, rgb(238, 95, 91) 0%, rgb(189, 54, 47) 100%);
-    background-image:         linear-gradient(top, rgb(238, 95, 91) 0%, rgb(189, 54, 47) 100%);
+    background-color: rgb(227, 45, 61);
     
     color: rgb(255, 255, 255);
 }
@@ -358,14 +333,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 
 /* Cancel */
 .waf-theme.llvflat .waf-button.waf-role-cancel {
-    border-color: transparent;
-    
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(84, 84, 84)), color-stop(1, rgb(35, 35, 35)));
-    background-image: -webkit-linear-gradient(top, rgb(84, 84, 84) 0%, rgb(35, 35, 35) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(84, 84, 84) 0%, rgb(35, 35, 35) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(84, 84, 84) 0%, rgb(35, 35, 35) 100%);
-    background-image:      -o-linear-gradient(top, rgb(84, 84, 84) 0%, rgb(35, 35, 35) 100%);
-    background-image:         linear-gradient(top, rgb(84, 84, 84) 0%, rgb(35, 35, 35) 100%);
+    background-color: rgb(51, 53, 56);
     
     color: rgb(255, 255, 255);
 }
@@ -404,14 +372,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 
 /* Confirm */
 .waf-theme.llvflat .waf-button.waf-role-confirm {
-    border-color: transparent;
-    
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(97, 194, 97)), color-stop(1, rgb(81, 163, 81)));
-    background-image: -webkit-linear-gradient(top, rgb(97, 194, 97) 0%, rgb(81, 163, 81) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(97, 194, 97) 0%, rgb(81, 163, 81) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(97, 194, 97) 0%, rgb(81, 163, 81) 100%);
-    background-image:      -o-linear-gradient(top, rgb(97, 194, 97) 0%, rgb(81, 163, 81) 100%);
-    background-image:         linear-gradient(top, rgb(97, 194, 97) 0%, rgb(81, 163, 81) 100%);
+    background-color: rgb(0, 125, 64);
     
     color: rgb(255, 255, 255);
 }
@@ -883,8 +844,8 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
  * -------------------------------------------------------
  */
 .waf-theme.llvflat .waf-container {
-	border: 1px solid rgb(204, 204, 204);
-    border-radius: 3px;
+	border: none;
+    border-radius: 0;
     
     background: rgb(255, 255, 255);
 }
