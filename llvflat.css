@@ -847,7 +847,7 @@ body.yui-layout .waf-theme.llvflat .waf-accordion > div.yui-overlay:last-of-type
 	border: none;
     border-radius: 0;
     
-    background: rgb(255, 255, 255);
+    background: rgb(227, 227, 227)
 }
 
 /**
@@ -1897,15 +1897,15 @@ body.yui-layout .waf-theme.llvflat .waf-tabView.waf-tabView-menu-position-right-
   * -------------------------------------------------------
   */
 .waf-theme.llvflat .waf-textField {
-    padding: 3px 6px;
+    padding: 6px 6px;
     
-    border: 1px solid rgb(204, 204, 204);
+    border: none;
     border-radius: 3px;
 
     background-color: rgb(255, 255, 255);
     
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
     color: rgb(102, 102, 102);
     
 	resize: none;
