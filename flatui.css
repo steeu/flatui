@@ -16,6 +16,26 @@
 
 /**
  * -------------------------------------------------------
+ * @section Color sceme
+ * -------------------------------------------------------
+ */
+ 
+/* 
+	grey
+	background-color: rgb(51, 53, 56);
+	background-color: rgb(224, 224, 224);
+	background-color: rgb(247, 247, 247);
+
+	green
+
+	red	
+
+	violett
+	background-color: rgb(149, 79, 118);
+*/
+
+/**
+ * -------------------------------------------------------
  * @section Main
  * -------------------------------------------------------
  */
@@ -48,14 +68,9 @@
  */
 .waf-theme.flatui .waf-widget-header,
 .waf-theme.flatui .waf-container.waf-widget-header {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(250, 249, 251)), color-stop(1, rgb(227, 227, 235)));
-    background-image: -webkit-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
-    background-image:      -o-linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);
-    background-image:         linear-gradient(top, rgb(250, 249, 251) 0%, rgb(227, 227, 235) 100%);    
+    background-color: rgb(51, 53, 56);   
 
-    color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
 }
 
 /**
@@ -75,14 +90,9 @@
  */
 .waf-theme.flatui .waf-widget-footer,
 .waf-theme.flatui .waf-container.waf-widget-footer {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(254, 254, 254)), color-stop(1, rgb(230, 230, 230)));
-    background-image: -webkit-linear-gradient(top, rgb(254, 254, 254) 0%, rgb(230, 230, 230) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(254, 254, 254) 0%, rgb(230, 230, 230) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(254, 254, 254) 0%, rgb(230, 230, 230) 100%);
-    background-image:      -o-linear-gradient(top, rgb(254, 254, 254) 0%, rgb(230, 230, 230) 100%);
-    background-image:         linear-gradient(top, rgb(254, 254, 254) 0%, rgb(230, 230, 230) 100%);    
+    background-color: rgb(51, 53, 56);
 
-    color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
 }
 
 /**
@@ -91,7 +101,7 @@
  * -------------------------------------------------------
  */
 .waf-theme.flatui .waf-widget-odd {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -874,7 +884,8 @@ body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type 
  * -------------------------------------------------------
  */
 .waf-theme.flatui .waf-dataGrid {
-    border: 1px solid rgb(204, 204, 204);
+/*    border: 1px solid rgb(204, 204, 204);*/
+    border: none;
     border-radius: 3px;
 	
     font-size: 12px;
@@ -886,7 +897,8 @@ body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type 
  * -------------------------------------------------------
  */
 .waf-theme.flatui .waf-dataGrid .waf-widget-header {
-    border-bottom: 1px solid rgb(204, 204, 204);
+/*    border-bottom: 1px solid rgb(204, 204, 204);*/
+    border-bottom: none;
     border-radius: 3px 3px 0 0; 
 }
 .waf-theme.flatui .waf-dataGrid .waf-widget-header > .container {
@@ -894,7 +906,7 @@ body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type 
 }
 
 .waf-theme.flatui .waf-dataGrid .waf-widget-header .waf-dataGrid-cell {
-    border-left: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid transparent;
     border-right: 1px solid rgb(204, 204, 204);
     box-shadow: none;
 }
@@ -905,7 +917,8 @@ body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type 
     border-right-color: transparent;
 }
 .waf-theme.flatui .waf-dataGrid .waf-widget-header .waf-icon path {
-    fill: rgb(102, 102, 102);
+    fill: rgb(255, 255, 255);
+	stroke: rgb(51, 53, 56);
 }
 
 /* States */
@@ -919,11 +932,13 @@ body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type 
  * -------------------------------------------------------
  */
 .waf-theme.flatui .waf-dataGrid .waf-widget-footer {
-    border-top: 1px solid rgb(204, 204, 204);
+/*    border-top: 1px solid rgb(204, 204, 204);*/
+    border-top: none;
     border-radius: 0 0 3px 3px; 
 }
 .waf-theme.flatui .waf-dataGrid .waf-widget-footer .waf-icon path {
-    fill: rgb(102, 102, 102);
+    fill: rgb(255, 255, 255);
+	stroke: rgb(51, 53, 56);
 }
 
 /**
@@ -942,28 +957,13 @@ body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type 
  */
 /* States */
 .waf-theme.flatui .waf-dataGrid .waf-widget-body .waf-dataGrid-row.waf-state-hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(252, 252, 252)), color-stop(1, rgb(236, 236, 236)));
-    background-image: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
-    background-image:      -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
-    background-image:         linear-gradient(top, rgb(252, 252, 252) 0%, rgb(236, 236, 236) 100%);
+    background-color: rgb(169, 99, 138);
 }
 .waf-theme.flatui .waf-dataGrid .waf-widget-body .waf-dataGrid-row.waf-state-active {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
-    background-image: -webkit-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:      -o-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:         linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
+    background-color: rgb(149, 79, 118);
 }
 .waf-theme.flatui .waf-dataGrid .waf-widget-body .waf-dataGrid-row.waf-state-selected {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(185, 185, 185)), color-stop(1, rgb(203, 203, 203)));
-    background-image: -webkit-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:    -moz-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:     -ms-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:      -o-linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
-    background-image:         linear-gradient(top, rgb(185, 185, 185) 0%, rgb(203, 203, 203) 100%);
+    background-color: rgb(149, 79, 118);
 }
 
 /**
