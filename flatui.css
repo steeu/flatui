@@ -891,8 +891,9 @@ body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type 
     color: rgb(51, 53, 56);
 }
 .waf-theme.flatui .waf-dataGrid .waf-widget-footer .waf-icon path {
-    fill: rgb(255, 255, 255);
-	stroke: rgb(51, 53, 56);
+    fill: rgb(51, 53, 56);
+    stroke: rgb(51, 53, 56);
+    stroke-width: 0;
 }
 
 /**
@@ -1007,6 +1008,7 @@ body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type 
 	font-size: 14px;
     font-weight: bold;
     margin-top: 2px;
+    color: rgb(255, 255, 255); 
 }
 .waf-theme.flatui .waf-dialog .waf-widget-header .waf-image {
     top: 5px !important;
@@ -1765,7 +1767,7 @@ body.yui-layout .waf-theme.flatui .waf-fileUpload .waf-button.waf-fileUpload-btn
 	border-color: rgb(224, 224, 224);
 	background-color: rgb(224, 224, 224);
     border-radius: 3px;
-    height: 28px !important;
+    height: 30px !important;
     color: rgb(51, 53, 56);
     font-size: 14px;
     width: 120px !important;
@@ -1900,10 +1902,10 @@ body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-right-b
 	font-size: 14px;
     color: rgb(51, 53, 56);
 	resize: none;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
+	-webkit-transition: border 0.20s ease-in-out;
+	-moz-transition: border 0.20s ease-in-out;
+	-ms-transition: border 0.20s ease-in-out;
+	-o-transition: border 0.20s ease-in-out;
 }
 
 /* States */
