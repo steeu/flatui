@@ -777,11 +777,16 @@ body.yui-layout .waf-theme.flatui .waf-accordion > div.yui-overlay:last-of-type 
     border-color: transparent;
 }
 
+.waf-theme.flatui .waf-combobox button .ui-icon {
+	margin-left: -6px;
+}
+
 /**
  * -------------------------------------------------------
  * @section comboList
  * -------------------------------------------------------
  */
+
 
 
 /** 
@@ -1971,11 +1976,10 @@ body.yui-layout .waf-theme.flatui .waf-tabView.waf-tabView-menu-position-right-b
 
 .waf-theme.flatui .ui-autocomplete li a.ui-state-hover {
 	background: none;
-	background-color: rgb(224, 224, 224);
+	background-color: rgb(149, 79, 118);
+    border-color: rgb(149, 79, 118);
+    color: rgb(255, 255, 255);
     margin: 0;
-    border-color: rgb(224, 224, 224);
-    
-    color: rgb(51, 53, 56);
 }
 .waf-theme.flatui .ui-autocomplete li:first-of-type a.ui-state-hover {
     border-top-color: transparent;
